@@ -7,13 +7,13 @@ const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');
 
 // huan_jing_bian_liang
-const UUID = process.env.UUID || 'a2056d0d-c98e-4aeb-9aab-37f64edd5710'; 
+const UUID = process.env.UUID || '1c9620ca-49a6-4530-b4be-9197de033dcf'; 
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      // shi_fou_kai_qi_zi_dong_fang_wen_bao_huo, false_wei_guan_bi, true_wei_kai_qi, xu_tong_shi_tian_xie_DOMAIN_bian_liang
 const XPATH = process.env.XPATH || UUID.slice(0, 8);       // xhttp_lu_jing, zi_dong_huo_qu_uuid_qian_8_wei
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // jie_dian_ding_yue_lu_jing
-const DOMAIN = process.env.DOMAIN || '';                   // yu_ming_huo_ip, liu_kong_jiang_zi_dong_huo_qu_fu_wu_qi_ip
-const NAME = process.env.NAME || 'Vls';                    // jie_dian_ming_cheng
-const PORT = process.env.PORT || 3000;                     // http_fu_wu
+const DOMAIN = process.env.DOMAIN || 'node.waifly.com';                   // yu_ming_huo_ip, liu_kong_jiang_zi_dong_huo_qu_fu_wu_qi_ip
+const NAME = process.env.NAME || 'waifly';                    // jie_dian_ming_cheng
+const PORT = process.env.PORT || 28243;                     // http_fu_wu
 
 // he_xin_pei_zhi
 const SETTINGS = {

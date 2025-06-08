@@ -9,9 +9,9 @@ const UUID = process.env.UUID || '6e796270-7828-47ef-bf1e-2bca2fd5f599';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const XPATH = process.env.XPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
-const DOMAIN = process.env.DOMAIN || 'fi-01.freezehost.pro';
-const NAME = process.env.NAME || 'freezehost-x';
-const PORT = process.env.PORT || 12611;
+const DOMAIN = process.env.DOMAIN || '54.37.19.161';
+const NAME = process.env.NAME || 'berrynodes.com';
+const PORT = process.env.PORT || 25695;
 
 const SETTINGS = {
     ['UUID']: UUID,              

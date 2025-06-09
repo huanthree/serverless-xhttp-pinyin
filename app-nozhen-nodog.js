@@ -5,13 +5,13 @@ const http = require('http');
 const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');
 
-const UUID = process.env.UUID || 'c4b7d596-1bbc-4626-9ec6-22c13d32bbc5';
+const UUID = process.env.UUID || '60ec904d-9884-42ae-b3c4-5dc50fa74cdf';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const XPATH = process.env.XPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
-const DOMAIN = process.env.DOMAIN || 'node.waifly.com';
-const NAME = process.env.NAME || 'waifly-fool';
-const PORT = process.env.PORT || 27689;
+const DOMAIN = process.env.DOMAIN || '69.30.219.180';
+const NAME = process.env.NAME || 'embotic.xyz-stop';
+const PORT = process.env.PORT || 1293;
 
 const SETTINGS = {
     ['UUID']: UUID,              

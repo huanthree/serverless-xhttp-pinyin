@@ -5,13 +5,13 @@ const http = require('http');
 const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');
 
-const UUID = process.env.UUID || '60ec904d-9884-42ae-b3c4-5dc50fa74cdf';
+const UUID = process.env.UUID || '1c38c457-3596-4113-b886-f215e820e90b';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const XPATH = process.env.XPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
-const DOMAIN = process.env.DOMAIN || '69.30.219.180';
+const DOMAIN = process.env.DOMAIN || 'delta.lylern.cloud';
 const NAME = process.env.NAME || 'embotic.xyz-stop';
-const PORT = process.env.PORT || 1293;
+const PORT = process.env.PORT || 25577;
 
 const SETTINGS = {
     ['UUID']: UUID,              

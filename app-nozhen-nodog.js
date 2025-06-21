@@ -5,13 +5,13 @@ const http = require('http');
 const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');
 
-const UUID = process.env.UUID || '6b758b3e-270c-4033-be32-77e632acb287';
+const UUID = process.env.UUID || '7a9e478b-0882-4947-82b0-dcc2d62cfc4e';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const XPATH = process.env.XPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub';
-const DOMAIN = process.env.DOMAIN || 'server.crosmo.de';
-const NAME = process.env.NAME || 'crosmo.de';
-const PORT = process.env.PORT || 20070;
+const DOMAIN = process.env.DOMAIN || '45.133.74.138';
+const NAME = process.env.NAME || 'jubix.top';
+const PORT = process.env.PORT || 5088;
 
 const SETTINGS = {
     ['UUID']: UUID,              
